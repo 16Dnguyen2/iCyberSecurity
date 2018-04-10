@@ -1,0 +1,9 @@
+*.pro.user
+*.pro.user.*
+*.Debug
+*.Release
+project2/Makefile
+project2/Makefile.*
+project2/debug/
+project2/release/
+build-project2-Desktop_Qt_5_10_1_MinGW_32bit-Debug/
