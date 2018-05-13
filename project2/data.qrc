@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/data/base">
+        <file>iCyberSecurity.db</file>
+    </qresource>
+</RCC>
