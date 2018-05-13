@@ -1,0 +1,50 @@
+\hypertarget{class_database_manager}{}\section{Database\+Manager Class Reference}
+\label{class_database_manager}\index{Database\+Manager@{Database\+Manager}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_manager_af1c0598acf843b8e970053f17fc845f1}\label{class_database_manager_af1c0598acf843b8e970053f17fc845f1}} 
+bool {\bfseries is\+Open} () const
+\item 
+\mbox{\Hypertarget{class_database_manager_aefa3d6eae7782904f5d758462b573b1e}\label{class_database_manager_aefa3d6eae7782904f5d758462b573b1e}} 
+{\bfseries Database\+Manager} (const \mbox{\hyperlink{class_database_manager}{Database\+Manager}} \&)=delete
+\item 
+\mbox{\Hypertarget{class_database_manager_acf8defd44bb315a62c6ef9ed10ea52c0}\label{class_database_manager_acf8defd44bb315a62c6ef9ed10ea52c0}} 
+void {\bfseries operator=} (const \mbox{\hyperlink{class_database_manager}{Database\+Manager}} \&)=delete
+\item 
+\mbox{\Hypertarget{class_database_manager_a0355bb13d0608acf18773a6321ed2765}\label{class_database_manager_a0355bb13d0608acf18773a6321ed2765}} 
+bool {\bfseries Add\+Customer} (const \mbox{\hyperlink{class_customer_list}{Customer\+List}} \&new\+Customer)
+\item 
+\mbox{\Hypertarget{class_database_manager_a76c778c9089b97504ea517a575bb95c7}\label{class_database_manager_a76c778c9089b97504ea517a575bb95c7}} 
+bool {\bfseries Remove\+Customer} (const \mbox{\hyperlink{class_customer_list}{Customer\+List}} \&customer)
+\item 
+\mbox{\Hypertarget{class_database_manager_a7e5b964348b1b4b83a20880443a6d714}\label{class_database_manager_a7e5b964348b1b4b83a20880443a6d714}} 
+bool {\bfseries customer\+Exist} (const \mbox{\hyperlink{class_customer_list}{Customer\+List}} \&customer)
+\item 
+\mbox{\Hypertarget{class_database_manager_a5da7ab3f2b017bb9b2482dc8757cf487}\label{class_database_manager_a5da7ab3f2b017bb9b2482dc8757cf487}} 
+bool {\bfseries purchase\+Exist} (Q\+String \&purchaser)
+\item 
+\mbox{\Hypertarget{class_database_manager_a8c125d96cdb57761e391849c0e3de35d}\label{class_database_manager_a8c125d96cdb57761e391849c0e3de35d}} 
+bool {\bfseries Add\+Purchase} (Q\+String Company, Q\+String review)
+\item 
+\mbox{\Hypertarget{class_database_manager_ad25114d420edce2c5e755594b5da6949}\label{class_database_manager_ad25114d420edce2c5e755594b5da6949}} 
+bool {\bfseries Add\+Package} (Q\+String name, Q\+String package, double price)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_manager_a4abb527066e28f3928ef45af856e134c}\label{class_database_manager_a4abb527066e28f3928ef45af856e134c}} 
+static \mbox{\hyperlink{class_database_manager}{Database\+Manager}} \& {\bfseries instance} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_manager_a794f47934ded0786f7745ebe6eac14f9}\label{class_database_manager_a794f47934ded0786f7745ebe6eac14f9}} 
+Q\+Sql\+Database {\bfseries my\+DB}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Kevin/\+Desktop/project2/databasemanager.\+h\item 
+C\+:/\+Users/\+Kevin/\+Desktop/project2/databasemanager.\+cpp\end{DoxyCompactItemize}
