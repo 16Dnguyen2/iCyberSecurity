@@ -1,3 +1,7 @@
+/** @file customerlisting.h
+*	@brief Contains interface options for the customer listing page.
+*/
+
 #ifndef CUSTOMERLISTING_H
 #define CUSTOMERLISTING_H
 
@@ -8,6 +12,9 @@ namespace Ui {
 class customerListing;
 }
 
+/**
+* @brief  Handles operations for the customer listing page.
+*/
 class customerListing : public QDialog
 {
     Q_OBJECT

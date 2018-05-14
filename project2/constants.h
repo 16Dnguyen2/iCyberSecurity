@@ -1,3 +1,7 @@
+/** @file constants.h
+*	@brief Links the database file to the program.
+*/
+
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 

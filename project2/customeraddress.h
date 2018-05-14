@@ -1,8 +1,15 @@
+/** @file customeraddress.h
+*	@brief Contains data in regard to customer addresses.
+*/
+
 #ifndef CUSTOMERADDRESS_H
 #define CUSTOMERADDRESS_H
 
 #include <QtSql>
 
+/**
+* @brief  Holds property values for a singular customer address.
+*/
 class CustomerAddress
 {
 public:

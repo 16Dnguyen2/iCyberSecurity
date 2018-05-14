@@ -1,3 +1,7 @@
+/** @file mainwindow.h
+*	@brief Manages the user interface of the program.
+*/
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -23,6 +27,9 @@ namespace Ui {
 class MainWindow;
 }
 
+/**
+* @brief  Manages the QT based aspects of the program.
+*/
 class MainWindow : public QMainWindow
 {
     Q_OBJECT

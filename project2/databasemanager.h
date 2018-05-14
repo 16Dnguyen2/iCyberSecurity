@@ -1,3 +1,7 @@
+/** @file databasemanager.h
+*	@brief Handles information sent to and read from a database file.
+*/
+
 #ifndef DATABASEMANAGER_H
 #define DATABASEMANAGER_H
 
@@ -9,6 +13,9 @@
 #include "customerlist.h"
 #include <QSqlDatabase>
 
+/**
+* @brief  Manages data stored within a databse.
+*/
 class DatabaseManager
 {
 public:
